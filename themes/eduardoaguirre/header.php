@@ -26,6 +26,9 @@
 		<header id="masthead" class="site-header" role="banner">
 			<div class="site-branding">
 				<h1 class="site-title screen-reader-text"><a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a></h1>
+				<a href="<?php echo get_home_url(); ?>">
+					<h1 class="header-name">Eduardo Aguirre</h1>
+				</a>
 			</div><!-- .site-branding -->
 
 			<nav id="site-navigation" class="main-navigation" role="navigation">

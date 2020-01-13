@@ -1,6 +1,6 @@
-# RED Starter
+# Massage
 
-A WordPress starter theme for RED Academy students, forked from Underscores.
+A massage therapy booking site
 
 ## Installation
 
@@ -8,13 +8,13 @@ A WordPress starter theme for RED Academy students, forked from Underscores.
 
 Then add me to your `wp-content` directory.
 
-### 2. Rename the `redstarter-master` directory
+### 2. Rename the `eduardoaguirre` directory
 
 Make sure that the theme directory name is project appropriate!
 
 ### 3. Install the dev dependencies
 
-Next you'll need to run `npm install` **inside your theme directory** next to install the node modules you'll need for Gulp, etc.
+Next you'll need to run `npm i` **inside your theme directory** next to install the node modules you'll need for Gulp, etc.
 
 ### 4. Update the proxy in `gulpfile.js`
 
