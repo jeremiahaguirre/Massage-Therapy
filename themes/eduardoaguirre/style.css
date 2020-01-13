@@ -731,3 +731,13 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
+.site-content {
+  width: 100%;
+  height: 100vh; }
+
+.site-footer {
+  width: 100%;
+  height: 50vh;
+  background: grey; }
+  .site-footer .facebook i {
+    color: white; }
