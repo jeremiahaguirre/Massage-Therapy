@@ -1,4 +1,4 @@
-# Massage
+# Massage-Therapy
 
 A massage therapy booking site
 
@@ -24,13 +24,13 @@ Lastly, be sure to update your `gulpfile.js` with the appropriate URL for the Br
 
 ## Author
 
-- Name: Jeremiah
-- My [Linkin](https://www.linkedin.com/in/jeremiah-aguirre-606708181/)
+- Name: Jeremiah Aguirre
+- My [Linkedin](https://www.linkedin.com/in/jeremiah-aguirre-606708181/)
 
 ## Am I missing some essential feature?
 
 - **Nothing is impossible!**
 
-- Open an [issue](https://github.com/jeremiahaguirre/boomtown/issues/new) and let's make Boomtown better together!
+- Open an [issue](https://github.com/jeremiahaguirre/Massage-Therapy/issues/new) and let's make Massage-Therapy better together!
 
 - _Bug reports, feature requests, patches, and well-wishes are always welcome._ :heavy_exclamation_mark:
