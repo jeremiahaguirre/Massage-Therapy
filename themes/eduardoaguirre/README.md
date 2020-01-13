@@ -19,3 +19,18 @@ Next you'll need to run `npm i` **inside your theme directory** next to install 
 ### 4. Update the proxy in `gulpfile.js`
 
 Lastly, be sure to update your `gulpfile.js` with the appropriate URL for the Browsersync proxy (so change `localhost[:port-here]/[your-dir-name-here]` to the appropriate localhost URL).
+
+---
+
+## Author
+
+- Name: Jeremiah
+- My [Linkin](https://www.linkedin.com/in/jeremiah-aguirre-606708181/)
+
+## Am I missing some essential feature?
+
+- **Nothing is impossible!**
+
+- Open an [issue](https://github.com/jeremiahaguirre/boomtown/issues/new) and let's make Boomtown better together!
+
+- _Bug reports, feature requests, patches, and well-wishes are always welcome._ :heavy_exclamation_mark:
