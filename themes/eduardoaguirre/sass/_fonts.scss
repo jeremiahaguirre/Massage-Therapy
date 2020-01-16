@@ -1,3 +1,35 @@
 /*--------------------------------------------------------------
 # Embedded Fonts
 --------------------------------------------------------------*/
+@font-face {
+  font-family: 'Dosis';
+  src: url('Dosis-ExtraLight.eot');
+  src: url('Dosis-ExtraLight.eot?#iefix') format('embedded-opentype'),
+    url('Dosis-ExtraLight.woff2') format('woff2'),
+    url('Dosis-ExtraLight.woff') format('woff'),
+    url('Dosis-ExtraLight.svg#Dosis-ExtraLight') format('svg');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Parisienne';
+  src: url('Parisienne-Regular.eot');
+  src: url('Parisienne-Regular.eot?#iefix') format('embedded-opentype'),
+    url('Parisienne-Regular.woff2') format('woff2'),
+    url('Parisienne-Regular.woff') format('woff'),
+    url('Parisienne-Regular.svg#Parisienne-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Niconne';
+  src: url('Niconne-Regular.eot');
+  src: url('Niconne-Regular.eot?#iefix') format('embedded-opentype'),
+    url('Niconne-Regular.woff2') format('woff2'),
+    url('Niconne-Regular.woff') format('woff'),
+    url('Niconne-Regular.svg#Niconne-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

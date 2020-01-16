@@ -229,6 +229,27 @@ th {
 /*--------------------------------------------------------------
 # Embedded Fonts
 --------------------------------------------------------------*/
+@font-face {
+  font-family: 'Dosis';
+  src: url("Dosis-ExtraLight.eot");
+  src: url("Dosis-ExtraLight.eot?#iefix") format("embedded-opentype"), url("Dosis-ExtraLight.woff2") format("woff2"), url("Dosis-ExtraLight.woff") format("woff"), url("Dosis-ExtraLight.svg#Dosis-ExtraLight") format("svg");
+  font-weight: 200;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Parisienne';
+  src: url("Parisienne-Regular.eot");
+  src: url("Parisienne-Regular.eot?#iefix") format("embedded-opentype"), url("Parisienne-Regular.woff2") format("woff2"), url("Parisienne-Regular.woff") format("woff"), url("Parisienne-Regular.svg#Parisienne-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Niconne';
+  src: url("Niconne-Regular.eot");
+  src: url("Niconne-Regular.eot?#iefix") format("embedded-opentype"), url("Niconne-Regular.woff2") format("woff2"), url("Niconne-Regular.woff") format("woff"), url("Niconne-Regular.svg#Niconne-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
@@ -522,7 +543,8 @@ a {
   background: rgba(0, 0, 0, 0.8);
   width: 100%;
   height: 80px;
-  top: 0; }
+  top: 0;
+  z-index: 100; }
   .site-header .site-branding {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -534,11 +556,13 @@ a {
       text-decoration: none;
       padding-left: 8%; }
       .site-header .site-branding a .header-name {
-        color: white;
-        font-size: 16px;
-        width: 126px; }
+        color: #ff4a4a;
+        font-size: 25px;
+        width: 163px;
+        font-family: 'Parisienne';
+        margin: 0; }
         .site-header .site-branding a .header-name:hover {
-          color: lightgray; }
+          color: #ba5a47; }
         .site-header .site-branding a .header-name:active {
           color: white; }
   .site-header nav {
@@ -555,9 +579,11 @@ a {
       padding-right: 20px; }
       .site-header nav ul li a {
         text-decoration: none;
-        color: white; }
+        color: #ff4a4a;
+        font-family: 'Dosis';
+        font-size: 18px; }
         .site-header nav ul li a:hover {
-          color: lightgray; }
+          color: #ba5a47; }
         .site-header nav ul li a:active {
           color: white; }
 
@@ -741,19 +767,31 @@ object {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 100vh; }
+  height: auto; }
   .site-content .front-container {
     color: #000;
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.7);
     margin: auto;
     padding: 10px;
     height: 100%;
     width: 80%;
     position: relative;
     top: 100px; }
-    .site-content .front-container .about-title {
-      font-size: 20px;
+    .site-content .front-container .about .about-title {
+      font-size: 40px;
+      font-family: 'Dosis';
       text-align: center; }
+    .site-content .front-container .about .profile-pic {
+      width: 10%;
+      height: auto;
+      left: 45%;
+      position: relative; }
+    .site-content .front-container .about .about-content {
+      font-family: 'Niconne'; }
+      .site-content .front-container .about .about-content p {
+        font-size: 2em;
+        font-weight: 200;
+        text-align: center; }
 
 .site-footer {
   width: 100%;
