@@ -1,52 +1,108 @@
+.menu-show {
+  position: fixed;
+}
 .site-header {
   display: flex;
   position: fixed;
-  background: rgba(0, 0, 0, 0.8);
+  background: $color__tb;
   width: 100%;
-  height: 80px;
+  height: 70px;
   top: 0;
-  z-index: 100;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10000;
+  align-content: center;
   .site-branding {
-    display: flex;
-    width: 100%;
-    align-self: center;
+    margin-left: 40px;
     a {
       text-decoration: none;
-      padding-left: 8%;
-
       .header-name {
-        color: #ff4a4a;
+        color: $color__red;
         font-size: 25px;
         width: 163px;
         font-family: 'Parisienne';
         margin: 0;
         &:hover {
-          color: #ba5a47;
+          color: $color__link-hover;
         }
         &:active {
-          color: white;
+          color: $color__red;
         }
       }
     }
   }
   nav {
     display: flex;
-    justify-content: flex-end;
-    align-self: center;
-    margin-right: 7%;
-    ul {
-      li {
-        padding-right: 20px;
-        a {
-          text-decoration: none;
-          color: #ff4a4a;
-          font-family: 'Dosis';
-          font-size: 18px;
-          &:hover {
-            color: #ba5a47;
+    flex: 0 1 25%;
+    z-index: 10000;
+    @include mobile {
+      ul {
+        overflow-y: scroll;
+        background-color: $color__tb;
+        position: absolute;
+        margin: 0;
+        padding: 10px;
+        top: 70px;
+        right: 0px;
+        width: 100vw;
+        height: calc(100vh - 70px);
+        flex-direction: column;
+        .sub-menu {
+          display: flex;
+          flex-direction: row;
+          height: auto;
+          width: auto;
+          float: unset;
+          position: static;
+          li {
+            width: 48%;
+            margin: 0;
+            &:first-child {
+              margin-right: 2%;
+            }
+            text-transform: uppercase;
           }
-          &:active {
-            color: white;
+        }
+        li {
+          padding: 10px 12px;
+          text-align: left;
+          border-bottom: 4px solid $color__bg;
+          margin: 0 50px;
+
+          a {
+            margin: 0px;
+            color: $color__red;
+            font-size: 1.4rem;
+            font-family: $font__headings;
+            &:hover {
+              color: $color__link-hover;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@include desktop {
+  .site-header {
+    z-index: 10000;
+    nav {
+      ul {
+        display: flex;
+        width: 100%;
+        text-transform: uppercase;
+        li {
+          padding-right: 12px;
+
+          align-items: center;
+          a {
+            font-family: $font__headings;
+            margin: 0px;
+            color: $color__red;
+            &:hover {
+              color: $color__link-hover;
+            }
           }
         }
       }

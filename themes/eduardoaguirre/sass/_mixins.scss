@@ -12,20 +12,20 @@
 }
 
 // Media Queries
-@mixin big-phone {
-  @media (min-width: $big-phone-width) {
-    @content;
-  }
-}
-
-@mixin tablet {
-  @media (min-width: $tablet-width) {
-    @content;
-  }
-}
-
 @mixin desktop {
-  @media (min-width: $desktop-width) {
+  @media (min-width: $desktop__width) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media (max-width: $desktop__width) {
+    @content;
+  }
+}
+
+@mixin second-break {
+  @media (min-width: $second__break-point) {
     @content;
   }
 }

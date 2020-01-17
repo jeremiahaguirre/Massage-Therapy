@@ -1,32 +1,39 @@
 // Structure
 
-$base__space-unit: 1.5rem;
-
-//media quierys
-$big-phone-width: 480px;
-$tablet-width: 600px;
-$desktop-width: 1000px;
+$base__space-unit: 1rem;
+$desktop__width: 690px;
+$second__break-point: 1000px;
 
 // Colors
 
 $color__background-body: #fff;
-$color__text-main: #404040;
+$color__text-main: #002150;
 
-$color__background-screen: #f1f1f1;
-$color__text-screen: #21759b;
+$color__background-screen: #fff;
+$color__text-screen: #002150;
 
 $color__background-hr: #ccc;
 $color__background-pre: #eee;
 $color__background-ins: #fff9c0;
 $color__border-abbr: #666;
 
-$color__link: royalblue;
-$color__link-visited: purple;
-$color__link-hover: midnightblue;
+$color__link: #fff;
+$color__link-visited: #fff;
+$color__link-hover: #ba5a47;
+
+// Pallete Collors
+
+$color__red: #ff4a4a; // Dark Blue
+$color__lb: #00a7ed; // Light Blue
+$color__tb: rgba(0, 0, 0, 0.9); // White
+$color__esr: #ed3800; // Error State Red
+$color__bg: #c2d7e9; // Blue-ish Grey
+$color__llb: #ebf7fd; // Light Light Blue
 
 // Typography
 
 $font__main: sans-serif;
+$font__headings: 'Dosis';
 $font__code: Monaco, Consolas, 'Andale Mono', 'DejaVu Sans Mono', monospace;
 $font__pre: 'Courier 10 Pitch', Courier, monospace;
 $font__line-height-body: 1.5;
