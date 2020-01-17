@@ -7,7 +7,7 @@ $second__break-point: 1000px;
 // Colors
 
 $color__background-body: #fff;
-$color__text-main: #002150;
+$color__text-main: #000;
 
 $color__background-screen: #fff;
 $color__text-screen: #002150;
@@ -17,16 +17,16 @@ $color__background-pre: #eee;
 $color__background-ins: #fff9c0;
 $color__border-abbr: #666;
 
-$color__link: #fff;
-$color__link-visited: #fff;
+$color__link: #ff4a4a;
+$color__link-visited: #ff4a4a;
 $color__link-hover: #ba5a47;
 
 // Pallete Collors
 
 $color__red: #ff4a4a; // Dark Blue
 $color__lb: #00a7ed; // Light Blue
-$color__tb: rgba(0, 0, 0, 0.9); // White
-$color__esr: #ed3800; // Error State Red
+$color__tb: rgba(0, 0, 0, 0.9); // header black
+$color__esr: #ed3800; // Error red
 $color__bg: #c2d7e9; // Blue-ish Grey
 $color__llb: #ebf7fd; // Light Light Blue
 

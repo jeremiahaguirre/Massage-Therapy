@@ -223,8 +223,7 @@ th {
   padding: 0; }
 
 * {
-  font-size: 16px;
-  margin: 0; }
+  font-size: 16px; }
 
 /*--------------------------------------------------------------
 # Embedded Fonts
@@ -258,7 +257,7 @@ button,
 input,
 select,
 textarea {
-  color: #002150;
+  color: #000;
   font-family: sans-serif;
   font-size: 16px;
   font-size: 1rem;
@@ -458,9 +457,9 @@ textarea {
 --------------------------------------------------------------*/
 /* Links */
 a {
-  color: #fff; }
+  color: #ff4a4a; }
   a:visited {
-    color: #fff; }
+    color: #ff4a4a; }
   a:hover, a:focus, a:active {
     color: #ba5a47; }
   a:focus {
@@ -825,39 +824,78 @@ object {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: auto; }
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
   .site-content .front-container {
     color: #000;
-    background: rgba(255, 255, 255, 0.7);
     margin: auto;
-    padding: 10px;
-    height: 100%;
-    width: 80%;
-    position: relative;
-    top: 100px; }
-    .site-content .front-container .about .about-title {
-      font-size: 40px;
-      font-family: 'Dosis';
-      text-align: center; }
-    .site-content .front-container .about .profile-pic {
-      width: 10%;
-      height: auto;
-      left: 45%;
-      position: relative; }
-    .site-content .front-container .about .about-content {
-      font-family: 'Niconne'; }
-      .site-content .front-container .about .about-content p {
-        font-size: 2em;
-        font-weight: 200;
-        text-align: center; }
+    height: 20%;
+    width: 90%; }
+    @media (min-width: 690px) {
+      .site-content .front-container {
+        width: 80%; } }
+    .site-content .front-container .about {
+      margin: 90px auto 20px auto;
+      padding: 10px;
+      border-radius: 32px;
+      background: rgba(255, 255, 255, 0.7); }
+      .site-content .front-container .about .about-title {
+        font-size: 40px;
+        font-family: 'Dosis';
+        text-align: center;
+        margin: 0; }
+      .site-content .front-container .about .profile-pic {
+        width: 20%;
+        height: auto;
+        left: 40%;
+        position: relative; }
+      .site-content .front-container .about .about-content {
+        font-family: 'Niconne'; }
+        .site-content .front-container .about .about-content p {
+          font-size: 1.4em;
+          line-height: normal;
+          text-align: center; }
+          @media (min-width: 690px) {
+            .site-content .front-container .about .about-content p {
+              font-size: 1.6em; } }
 
 .site-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 100%;
   height: 30vh;
-  background: grey; }
-  .site-footer .site-info .facebook {
-    font-size: 40px;
-    color: #fff;
-    text-decoration: none; }
-    .site-footer .site-info .facebook:active {
-      color: #fff; }
+  background: grey;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .site-footer .tel {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 50%;
+            flex: 0 1 50%;
+    padding-left: 10px; }
+    .site-footer .tel a {
+      color: #ff4a4a;
+      text-decoration: none; }
+      .site-footer .tel a:hover {
+        color: #ba5a47; }
+      .site-footer .tel a:active {
+        color: #ff4a4a; }
+  .site-footer .site-info {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 50%;
+            flex: 0 1 50%;
+    height: 100%;
+    position: relative;
+    padding-right: 10px; }
+    .site-footer .site-info .norm_row {
+      width: 100px !important;
+      position: absolute;
+      right: 0;
+      bottom: 5px; }
+      @media (min-width: 690px) {
+        .site-footer .site-info .norm_row {
+          right: 20px;
+          bottom: 10px; } }
