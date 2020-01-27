@@ -4,7 +4,7 @@
 
 /* Front page */
 .site-content {
-  background: url('../../assets/header-pic.jpg');
+  background: url('../../assets/massage-whistler.jpg');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -38,7 +38,7 @@
         position: relative;
       }
       .about-content {
-        font-family: 'Niconne';
+        font-family: 'Tajawal';
         p {
           font-size: 1.4em;
           line-height: normal;
@@ -49,5 +49,13 @@
         }
       }
     }
+  }
+}
+/*contact page*/
+.site-main {
+  width: 73%;
+  margin: 80px auto;
+  form {
+    display: flex;
   }
 }

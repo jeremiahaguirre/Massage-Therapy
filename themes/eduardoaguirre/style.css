@@ -249,6 +249,13 @@ th {
   font-weight: normal;
   font-style: normal; }
 
+@font-face {
+  font-family: 'Tajawal';
+  src: url("Tajawal-Regular.eot");
+  src: url("Tajawal-Regular.eot?#iefix") format("embedded-opentype"), url("Tajawal-Regular.woff2") format("woff2"), url("Tajawal-Regular.woff") format("woff"), url("Tajawal-Regular.ttf") format("truetype"), url("Tajawal-Regular.svg#Tajawal-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
@@ -818,7 +825,7 @@ object {
 --------------------------------------------------------------*/
 /* Front page */
 .site-content {
-  background: url("../../assets/header-pic.jpg");
+  background: url("../../assets/massage-whistler.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -852,7 +859,7 @@ object {
         left: 40%;
         position: relative; }
       .site-content .front-container .about .about-content {
-        font-family: 'Niconne'; }
+        font-family: 'Tajawal'; }
         .site-content .front-container .about .about-content p {
           font-size: 1.4em;
           line-height: normal;
@@ -860,6 +867,15 @@ object {
           @media (min-width: 690px) {
             .site-content .front-container .about .about-content p {
               font-size: 1.6em; } }
+
+/*contact page*/
+.site-main {
+  width: 73%;
+  margin: 80px auto; }
+  .site-main form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
 
 .site-footer {
   display: -webkit-box;

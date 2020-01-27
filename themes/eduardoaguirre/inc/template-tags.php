@@ -199,13 +199,14 @@ function red_starter_numbered_pagination()
 		echo '</nav>';
 	}
 }
-function inhabitent_get_latest_posts($post_type, $num_posts)
+function get_posts_categories($post_type, $num_posts)
 {
 	$args = array(
 		'post_type' => $post_type,
-		'numberposts' => $num_posts
+		'category_name' => $num_posts
 	);
 
 	$latest_posts = get_posts($args);
 	return $latest_posts;
 }
+
